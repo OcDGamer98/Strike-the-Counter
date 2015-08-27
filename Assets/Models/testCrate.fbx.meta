@@ -1,10 +1,15 @@
 fileFormatVersion: 2
-guid: 045ea6f8d6e701c41bdfb3e2355a2afc
-timeCreated: 1438743110
+guid: f984847e023409e4fa5f1f1733d1ea80
+timeCreated: 1439328750
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cube
   materials:
     importMaterials: 1
     materialName: 0
@@ -62,7 +67,7 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

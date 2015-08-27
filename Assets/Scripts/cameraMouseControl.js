@@ -1,9 +1,10 @@
 ﻿#pragma strict
+//Mouse control for camera
 
-function Start () {
-
+function Start(){
+	var mainCamera = GetComponent.<Camera>();
 }
 
-function Update () {
-
+function Update(){
+	
 }
