@@ -4,7 +4,7 @@
 private var player: Rigidbody;
 private var isMoving = false;
 private var isJumping = false;
-private var multiplier = 1f;
+private var multiplier : float = 1;
 
 function Start(){
 	player = GetComponent.<Rigidbody>();
@@ -57,6 +57,18 @@ function FixedUpdate(){
 	if(Input.GetKey(KeyCode.S)&&Input.GetKey(KeyCode.A)){
 		player.velocity = Vector3(-speed,y,-speed);
 	}
+	
+	//Temporary player turning
+	if(Input.GetKey(KeyCode.LeftArrow)){
+		player.angularVelocity.y = -2;
+	}
+	if(Input.GetKey(KeyCode.RightArrow)){
+		player.angularVelocity.y = 2;
+	}
+	if(!Input.GetKey(KeyCode.LeftArrow)&&!Input.GetKey(KeyCode.RightArrow)){
+		player.angularVelocity.y = 0;
+	}
+	
 }
 
 function OnCollisionEnter(collision: Collision){
