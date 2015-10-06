@@ -1,17 +1,50 @@
 fileFormatVersion: 2
-guid: d99ddee2fc693d74f8788e9bb4b919f1
-timeCreated: 1439338303
+guid: aa3b4a2707d41524dbd6717223f0769f
+timeCreated: 1443996232
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Cylinder
+    100000: chest
+    100002: Cube_007
+    100004: forearm_L
+    100006: forearm_R
+    100008: head
+    100010: hips
+    100012: metarig
+    100014: neck
+    100016: //RootNode
+    100018: shin_L
+    100020: shin_R
+    100022: shoulder_L
+    100024: shoulder_R
+    100026: spine
+    100028: thigh_L
+    100030: thigh_R
+    100032: upper_arm_L
+    100034: upper_arm_R
+    400000: chest
+    400002: Cube_007
+    400004: forearm_L
+    400006: forearm_R
+    400008: head
+    400010: hips
+    400012: metarig
+    400014: neck
+    400016: //RootNode
+    400018: shin_L
+    400020: shin_R
+    400022: shoulder_L
+    400024: shoulder_R
+    400026: spine
+    400028: thigh_L
+    400030: thigh_R
+    400032: upper_arm_L
+    400034: upper_arm_R
+    4300000: Cube_007
     7400000: Default Take
     9500000: //RootNode
+    13700000: Cube_007
   materials:
     importMaterials: 1
     materialName: 0
@@ -37,7 +70,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: .5
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

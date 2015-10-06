@@ -1,9 +1,13 @@
 ﻿#pragma strict
 
-var debugMenu : GameObject; 
+var debugMenu : GameObject;
+var debugValue1;
+var value1: GameObject;
+var waitTime: float;
 
 function Start () {
     debugMenu.SetActive(false);
+    value1 = GameObject.Find("debugValue1");
 }
 
 function Update () {
@@ -15,4 +19,7 @@ var isEnabled = false;
 		}
 		isEnabled = !isEnabled;
     }
+    /*if(isEnabled){
+    value1.GetComponent.<GUIText>().text = debugValue1;
+    }*/
 }
